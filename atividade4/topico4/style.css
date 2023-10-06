@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+.html-background{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #a9c319 0% 45%, #5518cf 95% 100%);
+    align-items: center;
+    justify-content: center;
+}
+.main-frame{
+    background-color: #1abcbc;
+    height: 500px;
+    width: 300px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
+    
+}
+#tittle{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    margin-top: 20%;
+    font-weight: 700;
+    text-align: center;
+}
+.box-ul{
+    display: flex;
+    margin-top: 2rem;
+}
+.input-notas{
+    list-style: none;
+}
+.input-notas li input{
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    height: 3.5rem;
+    width: 250px;
+    max-width: none;
+    font-size: 3rem;
+    outline: none;
+}
+.input-notas li{
+    margin-bottom: 1rem;
+}
+.div-button{
+    margin-top: 5%;
+}
+button{
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #ffd01a;
+    transition: background-color 100ms ease-in-out;
+}
+button:active{
+    background-color: #e8a200;
+}
+.resultado{
+    margin-top: 5%;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
